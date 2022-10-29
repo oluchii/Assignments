@@ -1,0 +1,141 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Philosopher', sans-serif;
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.div-row {
+  color: #fff;
+  height: 140%;
+  width: 100%;
+  position: absolute;
+  background-position: center;
+  background-color: #fca311;
+}
+
+.form-box {
+  background-color: #14213d;
+  width: 50%;
+  padding: 20px;
+  height: 600px;
+  margin: 6% auto;
+  position: relative;
+  border-radius: 10px;
+}
+
+.input-form {
+  top: 180px;
+  position: absolute;
+  width: 85%;
+  transition: .5s;
+  margin-left: 10px;
+}
+
+.input-box {
+  width: 100%;
+  padding: 10px 5px;
+  margin: 15px auto;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 2px solid #fca311;
+  color: #fca311;
+  border-radius: 3px;
+  background: transparent;
+  outline: none;
+  font-size: 14px;
+}
+
+.input-box1 {
+  margin-top: 5rem;
+}
+
+/* Profile picture avatar */
+.profile-pic {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 40%;
+}
+
+.login {
+  text-align: left;
+  color: #fca311;
+  font-size: 26px;
+  padding-top: 3rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 14px
+}
+
+h3 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+h4 {
+  margin-top: 1rem;
+  margin-left: 0.7rem;
+}
+
+h4>span {
+  color: #fca311;
+  text-decoration: none;
+}
+
+h5 {
+  text-align: left;
+  margin-top: 1rem;
+  padding-left: 15px;
+}
+
+.submit-btn {
+  width: 30%;
+  padding: 10px;
+  margin: 8px 4px 2rem 4px;
+  cursor: pointer;
+  display: block;
+  background-color: #fca311;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 0;
+  outline: none;
+}
+
+.submit-btn>a {
+  text-decoration: none;
+  color: #fff;
+}
+
+hr {
+  border-style: none;
+  border-top-style: solid;
+  border-color: #fca311;
+  border-width: 2px;
+}
+
+.message {
+  line-height: 2rem;
+  font-size: 16px;
+}
+
+#message1 {
+  padding-top: 2rem;
+}
