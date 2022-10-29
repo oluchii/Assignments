@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!--==================== FAVICON ====================-->
+        <link rel="icon" href="images/favicon.ico" >
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="styles.css">
+		
+        <!--==================== Google Fonts Link ====================-->
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Sacramento&display=swap" rel="stylesheet" />
+
+        <!--==================== Font Awesome Kit ====================-->
+        <script src="https://kit.fontawesome.com/68d948f8ba.js" crossorigin="anonymous"></script>
+
+        <title>Luus' Portfolio Website</title>
+    </head>
+
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <div class="container">
+                <nav class="nav-container">
+                    <img src="images/Luu24.png" alt="Luu's Logo" class="logo">                
+                        <ul id="side-menu">
+                            <li><a href="#" class="active">Home</a></li>
+                            <li><a href="about.html" target="_blank" >About</a></li>
+                            <li><a href="#services" target="_blank">Services</a></li>
+                            <li><a href="contact.html" target="_blank">Contact</a></li>
+                        </ul>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="detail">
+                    <div class="welcome">Welcome</div>
+                    <h1>Hi, I'm <span>Luu...</span></h1>
+                    <h4>Aspiring Frontend Developer</h4>
+                    <p>This is my official portfolio site for the Zuri Internship<br> Get to know more about me.</p>
+                </div>
+
+                <div class="images">
+                    <img src="images/4.png" alt="Abstract Shapes" class="shape">
+                </div>
+                
+                <div class="socials">
+                    <a href="#" class="home-socials social-data">Follow Me on: </a><br>
+                    <i class="fa-solid fa-arrow-right social-icons"></i>
+                    <a href="https://www.google.com" target="_blank" class="home-socials"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com" target="_blank" class="home-socials"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.twitter.com" target="_blank" class="home-socials"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="about1 ">
+                                <img src="images/4.png" alt="Abstract Shapes" class="shape1">
+                            </div>
+                            <div class="about2">
+                                <h1 class="about-h1">About Me</h1>
+                                <p class="about-text"><span>Hi... </span>My name is Luu and I am an aspiring Software Developer undergoing the Zuri Internship. My main aim is to complete this program and have a successful change in career. Fingers' Crossed 🤞🏾🤞🏾</p>
+                            <div class="about-titles">
+                                <h4 class="about-links active-link" onclick="opentab('services')">Services</h4>
+                                <h4 class="about-links" onclick="opentab('projects')">Projects</h4>
+                                <h4 class="about-links" onclick="opentab('priorities')">Priorities</h4>
+                            </div>
+
+                            <div class="about-contents active-contents" id="services">
+                                <ul>
+                                    <li><span>Web Development</span> <br>HTML, CSS, Bootstrap, WordPress, and a sprinkle of JavaScript</li>
+                                    <li><span>Customer Support</span> <br> Solving Problems</li>
+                                    <li><span>Project Mangement</span> <br>Managing Projects</li>
+                                </ul>
+                            </div>
+                            <div class="about-contents" id="projects">
+                                <ul>
+                                    <li><span>Zuri Trainning</span> <br>Using a design online to create a personal Portfolio Site for Zuri Trainning</li>
+                                    <li><span>Zuri Trainning</span> <br>Creating an HTML Table using a preset scores and subjects</li>
+                                    <li><span>Zuri Trainning</span> <br>Designing a basic Tribute Page</li>
+                                    <li><span>Zuri Trainning </span> <br> Creating Register/Login/Success Page</li>
+                                </ul>
+                            </div>
+                            <div class="about-contents" id="priorities">
+                                <ul>
+                                    <li><span>Focusing on my Goals</span></li>
+                                    <li><span>Finishing this Internship</span></li>
+                                    <li><span>Getting a Job</span></li>
+                                    <li><span>The Start of Something New</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section">
+                
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="contact-title">Contact Me</h1>
+                            <p><i class="fa-solid fa-paper-plane"></i> ucheamara94@gmail.com</p>
+                            <p><i class="fa-solid fa-mobile-screen-button"></i> +234813050****</p>
+                            <div class="contact-socials">
+                            <a href="#" class="home-socials social-data"><h3>Follow Me on: </h3></a><br>
+                            <a href="https://www.facebook.com" target="_blank" class="home-socials"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/mylo_luu " target="_blank" class="home-socials"><i class="fa-brands fa-instagram"><i></a>
+                            <a href="https://www.twitter.com" target="_blank" class="home-socials"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+
+                        <div class="contact-right">
+                            <form action="" method="post">
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="Email" placeholder="example@gmail.com" required>
+                                <textarea name="message" id="" cols="30" rows="10" placeholder="Type Message Here ..."></textarea>
+                                <button type="submit" class="submit-btn2">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+			<div class="bottom-container">
+				<a class="footer-link" href="https://www.linkedin.com/in/oluchionyekpa/">LinkedIn</a>
+				<a class="footer-link" href="https://twitter.com/Mylo_Luu">Twitter</a>
+				<a class="footer-link" href="https://www.instagram.com/">Instagram</a>
+				<p class="copy">Made With <i class="fas fa-heart"></i> by Luu.<br><br> <i class="fa-regular fa-copyright"></i> 2022</p>
+			</div>
+        </footer>
+        
+        <script src=""></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="script.js"></script>
+    </body>
+</html>
